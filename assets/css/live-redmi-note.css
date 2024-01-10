@@ -79,14 +79,22 @@ right: 60px;
 #Btn-phone:hover{
 background-color: #ff6900;
 }
+
+.email {
+align-items: center;
+background: #f1f3f2;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.56vw;
+padding-bottom: 3.2vw;
+}
     
 
 @media screen and (min-width:1000px) {
         
 
-#mob{
-display: none;
-}
+
 
 img,
 video {
@@ -123,17 +131,7 @@ display: inline-block;
 height: 2.34vw;
 width: 2.34vw;
 }
-.grid{
-display: grid;
-max-width: 100%;
-grid-template-columns: 1fr 1fr;
-background-position: center;
-align-content: center;
-justify-content: center;
-align-items: center;
-justify-items: center;
-padding: 20rem;
-}
+
 
 .grid-galeria{
 display: grid;
@@ -188,17 +186,14 @@ line-height: 2.81vw;
 width: 42.15vw;
 }
 
-.title-azul{
-font-size: 2.5rem;
-color: #2581d5;
-}
+
 
 .title-preto{
 font-size: 1.88vw;
 font-weight: 700;
 line-height: 1.1;
-text-align: left;
-width: 23.44vw;
+text-align: center;
+
 }
 
 .title-preto-phone{
@@ -209,11 +204,6 @@ text-align: center;
 width: 23.44vw;   
 }
 
-.p-azul{
-font-size: 1.3rem;
-color: #2581d5;
-line-height: 1.5;
-}
 
 .p-preto {
 font-size: .94vw;
@@ -334,13 +324,8 @@ vertical-align: middle;
 width: .94vw
 }
 
-.email .agree-box .radio-empty {
-background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)
-}
-
-.email .agree-box .radio-selected {
-background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)
-}
+.email .agree-box .radio-empty {background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)}
+.email .agree-box .radio-selected {background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)}
 
 .email .agree-box .agree-text {
 color: #898989;

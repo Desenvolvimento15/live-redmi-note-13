@@ -1,0 +1,760 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'Camphor Pro';
+src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
+}
+
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+.footer-base{
+text-align: left;
+color: #fff;
+padding: 1.5rem;
+border: 0;
+width: 80%;
+}
+
+button{border: none;}
+
+footer{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: #000;
+}
+
+.foot{
+text-align: center;
+color: #fff;
+padding: 1.5rem;
+border: 0;
+border-top: 1px solid rgb(255, 255, 255);
+width: 70%;
+}
+
+#Btn {
+display: none;
+position: fixed;
+bottom: 50px;
+right: 60px;
+z-index: 9999;
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+}
+
+#Btn:hover {
+background-color: #ff6900;
+}
+
+#Btn-phone{
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+}
+
+
+#Btn-phone:hover{
+background-color: #ff6900;
+}
+    
+
+@media screen and (min-width:1000px) {
+        
+
+#mob{
+display: none;
+}
+
+img,
+video {
+height: auto;
+max-width: 100%;
+}
+[hidden] {
+display: none;
+}
+
+body, html{
+font-family: 'Camphor Pro';
+}
+
+.top-header {
+align-items: center;
+color: #191919;
+display: flex;
+font-size: .94vw;
+font-weight: 400;
+justify-content: space-between;
+line-height: 1.13vw;
+padding: 1.17vw 1.88vw 0 1.17vw;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 9;
+}
+
+.top-header .header-logo {
+background-image: url(https://i05.appmifile.com/events/logos/orange-logo.png);
+background-size: 100%;
+display: inline-block;
+height: 2.34vw;
+width: 2.34vw;
+}
+.grid{
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr;
+background-position: center;
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: center;
+padding: 20rem;
+}
+
+.grid-galeria{
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+background-position: center;
+}
+
+.phone-flex{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+.galeria{
+padding: 7rem;
+background: #f7f7f7
+}
+
+.header-1 {
+background-image: url(../media/capa.webp);
+background-position: 50%;
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 37.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+.header-1, .header-1-calendar {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.header-1-text {
+align-items: center;
+color: #191919;
+display: flex;
+flex-direction: column;
+}
+.header-1-text-1 {
+background-size: 42.15vw 9.49vw;
+font-size: 1.95vw;
+height: 9.49vw;
+line-height: 2.81vw;
+width: 42.15vw;
+}
+
+.title-azul{
+font-size: 2.5rem;
+color: #2581d5;
+}
+
+.title-preto{
+font-size: 1.88vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: left;
+width: 23.44vw;
+}
+
+.title-preto-phone{
+font-size: 1.88vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 23.44vw;   
+}
+
+.p-azul{
+font-size: 1.3rem;
+color: #2581d5;
+line-height: 1.5;
+}
+
+.p-preto {
+font-size: .94vw;
+margin-top: 0.94vw;
+text-align: left;
+width: 16.44vw;
+}
+
+.p-preto-phone{
+font-size: .94vw;
+margin-top: 0.94vw;
+text-align: center;
+width: 23.44vw;
+}
+
+.section02{
+margin: 5rem;
+text-align: center;
+}
+
+.section04{
+margin: 0;
+text-align: center;
+margin-bottom: 3..5rem;
+}
+
+.section05{
+text-align: center;
+}
+
+
+.email {
+align-items: center;
+background: #fff;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.56vw;
+padding-bottom: 3.2vw
+}
+
+.email__title {
+color: #191919;
+font-size: 1.64vw;
+font-weight: 700;
+line-height: 1.2;
+margin: 3.13vw auto 1.41vw;
+max-width: 25vw;
+text-align: center
+}
+
+.email__content {
+height: 2.5vw;
+position: relative;
+width: 32.03vw
+}
+
+.email__content-text {
+background: #fff;
+border: .04vw solid #e0e0e0;
+border-radius: .63vw;
+box-sizing: border-box;
+color: #191919;
+font-size: .94vw;
+height: 100%;
+line-height: 2.5vw;
+outline: 0;
+padding: .08vw .94vw;
+width: 100%
+}
+
+.email__content-text::placeholder {
+color: #898989
+}
+
+.email__content-btn {
+background: #191919;
+border-radius: 0 .63vw .63vw 0;
+box-sizing: border-box;
+color: #f3f3f3;
+cursor: pointer;
+font-size: .94vw;
+font-weight: 400;
+height: 100%;
+line-height: 1.17vw;
+padding: .59vw 1.56vw;
+position: absolute;
+right: 0;
+text-align: center;
+top: 0
+}
+
+.email__content .btn-disable {
+background: #d0d0d0
+}
+
+.email__info {
+color: red;
+font-size: 1.17vw;
+margin-top: .86vw;
+text-align: left;
+width: 32.03vw
+}
+
+.email .agree-box {
+cursor: pointer;
+margin-top: .78vw;
+text-align: center;
+width: 32.03vw
+}
+
+.email .agree-box .radio {
+background-size: cover;
+display: inline-block;
+height: .94vw;
+margin-right: .31vw;
+vertical-align: middle;
+width: .94vw
+}
+
+.email .agree-box .radio-empty {
+background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)
+}
+
+.email .agree-box .radio-selected {
+background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)
+}
+
+.email .agree-box .agree-text {
+color: #898989;
+font-size: .63vw;
+font-weight: 400;
+line-height: .74vw
+}
+
+.email .agree-box .agree-link {
+color: #ff6900
+}
+
+.email .common-toast {
+background: #000;
+border-radius: .63vw;
+color: #fff;
+font-size: .94vw;
+font-weight: 400;
+height: 7.85vw;
+left: 50%;
+line-height: 1.13vw;
+opacity: .7;
+padding: .7vw 1.88vw;
+position: absolute;
+text-align: center;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 29.69vw
+}
+
+#myBtn {
+display: none;
+position: fixed;
+bottom: 50px;
+right: 60px;
+z-index: 9999;
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+}
+
+#myBtn:hover {
+background-color: #ff6900;
+}
+
+#myBtn-phone{
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+}
+
+
+#myBtn-phone:hover{
+background-color: #ff6900;
+}
+}
+
+
+@media screen and (max-width:999px) {
+
+#desk{ display: none;}
+
+img{
+max-width: 100%;
+}
+
+video{
+max-width: 100%;
+}
+
+[hidden] {
+display: none;
+}
+
+footer{
+text-align: center;
+padding: 1.5rem;
+}
+
+body, html{
+font-family: 'Camphor Pro';
+}
+
+a{
+text-decoration: none;
+}
+
+.top-header {
+align-items: center;
+color: #191919;
+display: flex;
+font-weight: 400;
+justify-content: space-between;
+line-height: 1.13vw;
+padding: 3vw 2.88vw 0 2.17vw;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 9;
+}
+
+.top-header .header-logo {
+background-image: url(https://i05.appmifile.com/events/logos/orange-logo.png);
+background-size: 100%;
+display: inline-block;
+height: 10vw;
+width: 10vw;
+}
+
+.grid-galeria{
+display: flex;
+background-position: center;
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: stretch;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.grid-text{
+padding: 0.5rem;
+}
+
+.phone-flex{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+.galeria{
+padding: 7rem;
+background: #f7f7f7
+}
+
+.header-1 {
+background-image: url(../media/capa-mobile.png);
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 178.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+.header-1, .header-1-calendar {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.header-1-text {
+align-items: center;
+color: #191919;
+display: flex;
+flex-direction: column;
+}
+
+.header-1-text-1 {
+width:27rem;
+}
+
+.title-azul{
+font-size: 1.5rem;
+color: #2581d5;
+}
+
+.title-preto{
+font-size: 6vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 70vw;
+margin-bottom: 1rem;
+}
+
+.title-preto-phone{
+font-size: 5vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 50vw;   
+}
+
+.p-azul{
+font-size: 1rem;
+color: #2581d5;
+line-height: 1.5;
+}
+
+.p-preto{
+font-size: 4.3vw;
+text-align: center;
+width: 68vw;
+}
+
+.p-preto-phone{
+font-size: 4.3vw;
+margin-top: 0.94vw;
+text-align: center;
+width: 68vw;
+}
+
+.section02{
+margin: 1rem;
+text-align: center;
+}
+
+.section04{
+margin: 0;
+text-align: center;
+margin-bottom: 3..5rem;
+}
+
+.section05{
+text-align: center;
+}
+
+
+.email {
+align-items: center;
+background: #fff;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.56vw;
+padding-bottom: 3.2vw
+}
+
+.email__title {
+color: #191919;
+font-size: 5vw;
+font-weight: 700;
+line-height: 1.2;
+margin: 3.13vw auto 1.41vw;
+max-width: 57vw;
+text-align: center;
+}
+
+.email__content {
+position: relative;
+width: 88.03vw;
+height: 11.5vw;
+}
+
+.email__content-text {
+background: #fff;
+border: 0.04vw solid #e0e0e0;
+border-radius: 0.63vw;
+box-sizing: border-box;
+color: #191919;
+font-size: 5vw;
+height: 100%;
+line-height: 2.5vw;
+outline: 0;
+padding: 5vw 5vw;
+width: 100%;
+}
+
+.email__content-text::placeholder {
+color: #898989
+}
+
+.email__content-btn {
+background: #191919;
+border-radius: 0 .63vw .63vw 0;
+box-sizing: border-box;
+color: #f3f3f3;
+cursor: pointer;
+font-size: .94vw;
+font-weight: 400;
+height: 100%;
+line-height: 1.17vw;
+padding: .59vw 1.56vw;
+position: absolute;
+right: 0;
+text-align: center;
+top: 0
+}
+
+.email__content .btn-disable {
+background: #d0d0d0
+}
+
+.email__info {
+color: red;
+font-size: 1.17vw;
+margin-top: .86vw;
+text-align: left;
+width: 32.03vw
+}
+
+.email .agree-box {
+cursor: pointer;
+margin-top: 0.78vw;
+text-align: center;
+width: 64vw;
+}
+
+.email .agree-box .radio {
+background-size: cover;
+display: inline-block;
+height: 3vw;
+margin-right: 0.31vw;
+vertical-align: middle;
+width: 5vw;
+}
+
+.email .agree-box .radio-empty {
+background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)
+}
+
+.email .agree-box .radio-selected {
+background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)
+}
+
+.email .agree-box .agree-text {
+color: #898989;
+font-size: 3vw;
+font-weight: 400;
+line-height: .74vw;
+}
+
+.email .agree-box .agree-link {
+color: #ff6900;
+font-size: 0.7rem;
+}
+
+.email .common-toast {
+background: #000;
+border-radius: .63vw;
+color: #fff;
+font-size: .94vw;
+font-weight: 400;
+height: 7.85vw;
+left: 50%;
+line-height: 1.13vw;
+opacity: .7;
+padding: .7vw 1.88vw;
+position: absolute;
+text-align: center;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 29.69vw
+}
+
+#myBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 9999;
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 10px;
+border-radius: 10px;
+}
+
+#myBtn:hover {
+background-color: #ff6900;
+}
+
+#myBtn-phone{
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+margin-bottom: 3rem;
+}
+
+#myBtn-phone:hover{
+background-color: #ff6900;
+}
+
+.modal-dialog {
+max-width: 800px;
+margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
+}

@@ -275,9 +275,7 @@ padding: .08vw .94vw;
 width: 100%
 }
 
-.email__content-text::placeholder {
-color: #898989
-}
+.email__content-text::placeholder {color: #898989}
 
 .email__content-btn {
 background: #191919;
@@ -296,9 +294,7 @@ text-align: center;
 top: 0
 }
 
-.email__content .btn-disable {
-background: #d0d0d0
-}
+.email__content .btn-disable {background: #d0d0d0}
 
 .email__info {
 color: red;

@@ -17,9 +17,9 @@ color: #000;
 
 .footer-base{
 text-align: left;
+font-weight: 300;
 color: #fff;
 padding: 1.5rem;
-border: 0;
 width: 80%;
 }
 

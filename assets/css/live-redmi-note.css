@@ -90,12 +90,24 @@ margin-top: 1.56vw;
 padding-bottom: 3.2vw;
 }
     
+.p-preto {
+text-align: center;
+}
+
+.title-preto{
+font-weight: 900;
+line-height: 1.1;
+text-align: center;
+}
+
+.section02{
+margin: 5rem;
+text-align: center;
+}
+
 
 @media screen and (min-width:1000px) {
         
-
-
-
 img,
 video {
 height: auto;
@@ -108,6 +120,8 @@ display: none;
 body, html{
 font-family: 'Camphor Pro';
 }
+
+
 
 .top-header {
 align-items: center;
@@ -186,8 +200,6 @@ line-height: 2.81vw;
 width: 42.15vw;
 }
 
-
-
 .title-preto{
 font-size: 1.88vw;
 font-weight: 700;
@@ -204,12 +216,10 @@ text-align: center;
 width: 23.44vw;   
 }
 
-
 .p-preto {
 font-size: .94vw;
 margin-top: 0.94vw;
-text-align: left;
-width: 16.44vw;
+text-align: center;
 }
 
 .p-preto-phone{
@@ -219,10 +229,6 @@ text-align: center;
 width: 23.44vw;
 }
 
-.section02{
-margin: 5rem;
-text-align: center;
-}
 
 .section04{
 margin: 0;
@@ -275,7 +281,9 @@ padding: .08vw .94vw;
 width: 100%
 }
 
-.email__content-text::placeholder {color: #898989}
+.email__content-text::placeholder {
+color: #898989
+}
 
 .email__content-btn {
 background: #191919;
@@ -294,7 +302,9 @@ text-align: center;
 top: 0
 }
 
-.email__content .btn-disable {background: #d0d0d0}
+.email__content .btn-disable {
+background: #d0d0d0
+}
 
 .email__info {
 color: red;
@@ -321,6 +331,7 @@ width: .94vw
 }
 
 .email .agree-box .radio-empty {background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)}
+
 .email .agree-box .radio-selected {background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)}
 
 .email .agree-box .agree-text {

@@ -12,11 +12,9 @@ function scrollFunction() {
   }
 }
 
-
+// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
-    element = $('body');
-    offset = element.offset();
-    offsetTop = offset.top;
-    $('html, body').animate({scrollTop: offsetTop}, 600, 'linear').animate({scrollTop:25},200).animate({scrollTop:0},150) .animate({scrollTop:0},50);
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
+

@@ -9,7 +9,9 @@ font-family: 'Camphor Pro';
 src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
 
-
+.galeria{
+    display: none;
+}
 a{
 text-decoration: none;
 color: #000;

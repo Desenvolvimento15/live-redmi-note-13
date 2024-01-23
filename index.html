@@ -10,22 +10,23 @@
 
     <link rel="stylesheet" href="./assets/css/live-redmi-note.css">
     <link rel="stylesheet" href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-r.css'>
+
 </head>
 
 <body>
 
 <main>
 
-        <header class="top-header">
-           <a href="//www.mibrasil.com.br" class="header-logo"></a>
-           <div class="top-header-right"><a href="//www.mibrasil.com.br" class="top-header__link">mibrasil.com.br</a></div>
-        </header>
+    <header class="top-header">
+    <a href="//www.mibrasil.com.br" class="header-logo"></a>
+    <div class="top-header-right"><a href="//www.mibrasil.com.br" class="top-header__link">mibrasil.com.br</a></div>
+    </header>
 
         <div class="header-1">
 
             <div class="header-1-text">
 
-                <img src="./assets/media/logo.png" id="desk"  alt="" srcset="" >
+                <img src="./assets/media/logo.png"   alt="" srcset="" >
               
             </div>
 
@@ -33,34 +34,60 @@
 
       <div class="galeria">
         
-        <div class="grid-galeria">
+        <div class="grid-galeria" id="galeria">
 
             <div class="phone-flex">
                 <h3 class="title-preto-phone">Redmi Note 13</h3>
-                <p class="p-preto-phone">Tela AMOLED de 120 Hz com câmera tripla de 108 MP</p>
+                <p class="p-preto-phone">Tela AMOLED de 120 Hz<br>com câmera tripla de 108 MP</p>
                 <img src="./assets/media/note13.webp">
-                <button  id="myBtn-phone" onclick="location.href='https://www.mibrasil.com.br/smartphone-poco-x5-pro-5g-8gb-256gb-cm0378-p4445'" type="button">Saiba mais</button>
+                
             </div>
 
             <div class="phone-flex">
                 <h3 class="title-preto-phone">Redmi Note 13 5G</h3>
-                <p class="p-preto-phone">Câmera tripla super nítida de 108 MP, tela FHD + AMOLED de 120 Hz</p>
+                <p class="p-preto-phone">Câmera tripla super nítida de 108 MP,<br>tela FHD + AMOLED de 120 Hz</p>
                 <img src="./assets/media/note13-5g.webp">
-                <button id="myBtn-phone" onclick="location.href='https://www.mibrasil.com.br/smartphone-poco-x5-pro-5g-8gb-256gb-cm0378-p4445'" type="button">Saiba mais</button>
+                
             </div>
 
             <div class="phone-flex">
                 <h3 class="title-preto-phone">Redmi Note 13 Pro 5G</h3>
-                <p class="p-preto-phone">Câmera OIS de 200 MP com tela de 1,5 K e 120 Hz</p>
+                <p class="p-preto-phone">Câmera OIS de 200 MP<br>com tela de 1,5 K e 120 Hz</p>
                 <img src="./assets/media/note13-pro-5g.webp">
-                <button  id="myBtn-phone" onclick="location.href='https://www.mibrasil.com.br/smartphone-poco-x5-pro-5g-8gb-256gb-cm0378-p4445'" type="button">Saiba mais</button>
+              
             </div>
             
         </div>
 
       </div>
 
-      <div class="section02">
+    <div class="section02" id="section02">
+         
+        <div id="countdown">
+
+            <div class="time-container">
+              <div id="days" class="time"></div>
+              <div class="label">Dias</div>
+            </div>
+
+            <div class="time-container">
+              <div id="hours" class="time"></div>
+              <div class="label">Horas</div>
+            </div>
+
+            <div class="time-container">
+              <div id="minutes" class="time"></div>
+              <div class="label">Minutos</div>
+            </div>
+
+            <div class="time-container">
+              <div id="seconds" class="time"></div>
+              <div class="label">Segundos</div>
+            </div>
+    
+        </div>
+
+
         <h3 class="title-preto">Mais do que apenas números, criados para serem icônicos</h3>
         <p class="p-preto">Câmera, tela e experiência atualizadas liberam recursos de nível principal para todos</p>
     </div>
@@ -69,7 +96,6 @@
      
         <div class="section03"><video src="./assets/media/01.mp4" muted autoplay loop></video></div>
         <div class="section04"><video src="./assets/media/02.mp4" muted autoplay loop></video></div>
-        <div class="section05"><video src="./assets/media/03.mp4" muted autoplay loop></video></div>
         <div class="section06"><video src="./assets/media/04.mp4" muted autoplay loop></video></div>
 
     </div>
@@ -91,8 +117,6 @@
       <button onclick="topFunction()" id="Btn" title="Ir ao topo"><i class="gg-arrow-up-r"></i></button>
 
 </main>
-
-
 
 
 <script src="./assets/js/main.js"></script>

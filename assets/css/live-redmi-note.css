@@ -9,7 +9,7 @@ font-family: 'Camphor Pro';
 src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
 
-
+#grid-galeria{display: none;}
 .desktop-note{display: block;}
 .mobile-note{display: none;}
 
@@ -19,20 +19,12 @@ color: #000;
 }
 
 img,
-video {
-height: auto;
-max-width: 100%;
-}
-[hidden] {
-display: none;
-}
+video {height: auto; max-width: 100%;}
+[hidden] {display: none;}
 
-body, html{
-font-family: 'Camphor Pro';
-}
+body, html{font-family: 'Camphor Pro';}
 
 button{border: none;}
-
 
 .p-preto {text-align: center;}
 
@@ -72,6 +64,11 @@ grid-template-columns: 1fr 1fr 1fr;
 background-position: center;
 }
 
+.galeria{
+padding: 7rem;
+background: #f7fcff;
+}
+
 .phone-flex{
 display: flex;
 flex-direction: column;
@@ -81,10 +78,7 @@ justify-content: center;
 align-items: center;
 }
 
-.galeria{
-padding: 7rem;
-background: #f7f7f7
-}
+
 
 .header-1 {
 background-image: url(../media/capa.webp);
@@ -189,6 +183,31 @@ right: 60px;
 background-color: #ff6900;
 }
 
+#countdown {
+font-size: 4rem;
+color: #000;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 5rem;
+}
+
+.time-container {
+margin: 10px;
+text-align: center;
+}
+
+.time {
+font-size: 1.5em;
+font-weight: bold;
+color: #000;
+}
+
+.label {
+font-size: 0.8em;
+color: #e02213;
+}
+    
 @media screen and (max-width:999px) {
 
 .desktop-note{display: none;}

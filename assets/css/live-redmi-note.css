@@ -12,6 +12,48 @@ src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) for
 #Btn-phone{display: none;}
 .mobile-note{display: none;}
 
+.share {
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+z-index: 9;
+}
+.share-prd {
+bottom: 140px;
+position: fixed;
+right: 100px;
+}
+
+.share_icon_ot {
+background-repeat: no-repeat;
+background-size: cover;
+height: 50px;
+margin-bottom: 15px;
+width: 50px;
+}
+
+.share .share-top {
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.share .common-icon-share-facebook-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/facebook.png);}
+.share .common-icon-share-twitter-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/twitter.png);}
+.share-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/up.png);}
+
+
+.share .common-icon-share-facebook, .common-icon-share-tw, .share .common-icon-share-twitter {
+background-repeat: no-repeat;
+background-size: contain;
+cursor: pointer;
+height: 50px;
+width: 50px;
+}
+
 a{
 text-decoration: none;
 color: #000;
@@ -23,9 +65,15 @@ video {height: auto; max-width: 100%;}
 
 body, html{font-family: 'Camphor Pro';}
 
-button{border: none;}
+button{
+border: none;
+background: none;
+}
 
-
+.logo{
+width: 35rem;
+margin-bottom: 1.5rem;
+}
 
 .title-preto{
 font-weight: 900;
@@ -77,14 +125,13 @@ justify-content: center;
 align-items: center;
 }
 
-
 .header-1 {
 background-image: url(../media/capa.webp);
 background-position: 50%;
 background-size: cover;
 box-sizing: border-box;
 flex-direction: column;
-height: 37.5vw;
+height: 34vw;
 padding: 0 8.98vw;
 position: relative;
 width: 100%;
@@ -101,14 +148,11 @@ align-items: center;
 color: #191919;
 display: flex;
 flex-direction: column;
+top: 2rem;
+margin-top: -12rem;
+width: 100%;
 }
-.header-1-text-1 {
-background-size: 42.15vw 9.49vw;
-font-size: 1.95vw;
-height: 9.49vw;
-line-height: 2.81vw;
-width: 42.15vw;
-}
+
 
 .section02{
 margin: 5rem;
@@ -123,9 +167,16 @@ padding-bottom: 0.3rem;
 }
 
 
-
-
 /********************************************************************/
+
+
+.title-promo{
+font-size: 1.88vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+
+}
 
 .title-preto{
 font-size: 1.88vw;
@@ -166,24 +217,6 @@ color: #000;
 
 /*****************************************************************/
 
-#Btn-note {
-display: none;
-position: fixed;
-bottom: 50px;
-right: 60px;
-z-index: 9999;
-border: none;
-outline: none;
-background-color: #191919;
-color: white;
-cursor: pointer;
-padding: 25px;
-border-radius: 10px;
-}
-
-#Btn-note:hover {
-background-color: #ff6900;
-}
 
 #Btn-phone {
 border: none;
@@ -206,16 +239,13 @@ font-size: 2rem;
 background-color: #ff6900;
 }
 
-
-
-
 #countdown {
 font-size: 4rem;
 color: #000;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-
+padding-top: 8rem;
 }
 
 .time-container {
@@ -245,13 +275,13 @@ padding-bottom: 3.2vw
 }
 
 .email__title {
-    color: #191919;
-    font-size: 1.64vw;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 1.13vw auto 1.41vw;
-    max-width: 38vw;
-    text-align: center;
+color: #191919;
+font-size: 1.64vw;
+font-weight: 700;
+line-height: 1.2;
+margin: 1.13vw auto 1.41vw;
+max-width: 38vw;
+text-align: center;
 }
 
 .email__content {
@@ -320,14 +350,14 @@ width: 29.69vw
 }
 
 .video_icon {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    left: 0.3125rem;
-    position: absolute;
-    top: calc(50% - 0.96094rem);
-    z-index: 1;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+left: 0.3125rem;
+position: absolute;
+top: calc(50% - 0.96094rem);
+z-index: 1;
 }
 
 
@@ -471,8 +501,6 @@ margin: 1rem;
 text-align: center;
 }
 
-
-
 #Btn-note {
 display: none;
 position: fixed;
@@ -491,10 +519,6 @@ border-radius: 10px;
 #Btn-note:hover {
 background-color: #ff6900;
 }
-
-
-
-
 
 #Btn-phone{
 border: none;

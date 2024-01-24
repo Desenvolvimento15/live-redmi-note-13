@@ -22,7 +22,7 @@ function topFunction() {
 }
 
 // Define a data alvo para o contador regressivo
-var countDownDate = new Date("Jan 31, 2024 12:00:00").getTime();
+var countDownDate = new Date("Jan 25, 2024 7:33:00").getTime();
 
 function updateCountdown() {
   var now = new Date().getTime();
@@ -41,8 +41,7 @@ function updateCountdown() {
   } else {
     document.getElementById('countdown').innerHTML = '';
     clearInterval(interval);
-    document.getElementById('').style.display = 'block';
-    document.getElementById('').style.display = 'none';
+    document.getElementById('Btn-phone').style.display = 'block';
   }
 }
 

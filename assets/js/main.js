@@ -22,7 +22,7 @@ function topFunction() {
 
 
 // Define a data alvo para o contador regressivo
-var countDownDate = new Date("Jan 24, 2024 15:54:00").getTime();
+var countDownDate = new Date("Jan 31, 2024 21:00:00").getTime();
 
 function updateCountdown() {
   var now = new Date().getTime();

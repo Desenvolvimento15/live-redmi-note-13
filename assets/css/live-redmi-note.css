@@ -9,8 +9,7 @@ font-family: 'Camphor Pro';
 src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
 
-#grid-galeria{display: none;}
-.desktop-note{display: block;}
+#Btn-phone{display: none;}
 .mobile-note{display: none;}
 
 a{
@@ -26,7 +25,7 @@ body, html{font-family: 'Camphor Pro';}
 
 button{border: none;}
 
-.p-preto {text-align: center;}
+
 
 .title-preto{
 font-weight: 900;
@@ -79,7 +78,6 @@ align-items: center;
 }
 
 
-
 .header-1 {
 background-image: url(../media/capa.webp);
 background-position: 50%;
@@ -116,6 +114,17 @@ width: 42.15vw;
 margin: 5rem;
 text-align: center;
 }
+
+.section-note{
+overflow: hidden;
+position: relative;
+z-index: 1;
+padding-bottom: 0.3rem;
+}
+
+
+
+
 /********************************************************************/
 
 .title-preto{
@@ -146,9 +155,18 @@ text-align: center;
 width: 23.44vw;
 }
 
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #000;
+}
+
 /*****************************************************************/
 
-#Btn {
+#Btn-note {
 display: none;
 position: fixed;
 bottom: 50px;
@@ -163,25 +181,25 @@ padding: 25px;
 border-radius: 10px;
 }
 
-#Btn:hover {
+#Btn-note:hover {
 background-color: #ff6900;
 }
 
 #Btn-phone {
-    border: none;
-    outline: none;
-    background-color: #191919;
-    color: white;
-    cursor: pointer;
-    padding: 25px;
-    border-radius: 10px;
-    bottom: 50px;
-    right: 60px;
-    margin: 0 auto;
-    width: 24rem;
-    height: 6rem;
-    margin-bottom: 5rem;
-    font-size: 2rem;
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+margin: 0 auto;
+width: 24rem;
+height: 6rem;
+margin-bottom: 5rem;
+font-size: 2rem;
 }
 
 #Btn-phone:hover{
@@ -189,9 +207,6 @@ background-color: #ff6900;
 }
 
 
-#Btn-phone{
-    display: none;
-}
 
 
 #countdown {
@@ -219,134 +234,106 @@ font-size: 0.8em;
 color: #e02213;
 }
 
-
-
-
 .email {
-    align-items: center;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    margin-top: 1.56vw;
-    padding-bottom: 3.2vw
-    }
-    
-    .email__title {
+align-items: center;
+background: #fff;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.6vw;
+padding-bottom: 3.2vw
+}
+
+.email__title {
     color: #191919;
     font-size: 1.64vw;
     font-weight: 700;
     line-height: 1.2;
-    margin: 3.13vw auto 1.41vw;
+    margin: 1.13vw auto 1.41vw;
     max-width: 38vw;
-    text-align: center
-    }
-    
-    .email__content {
-    height: 2.5vw;
-    position: relative;
-    width: 32.03vw
-    }
-    
-    .email__content-text {
-    background: #fff;
-    border: .04vw solid #e0e0e0;
-    border-radius: .63vw;
-    box-sizing: border-box;
-    color: #191919;
-    font-size: .94vw;
-    height: 100%;
-    line-height: 2.5vw;
-    outline: 0;
-    padding: .08vw .94vw;
-    width: 100%
-    }
-    
-    .email__content-text::placeholder {
-    color: #898989
-    }
-    
-    .email__content-btn {
-    background: #191919;
-    border-radius: 0 .63vw .63vw 0;
-    box-sizing: border-box;
-    color: #f3f3f3;
-    cursor: pointer;
-    font-size: .94vw;
-    font-weight: 400;
-    height: 100%;
-    line-height: 1.17vw;
-    padding: .59vw 1.56vw;
+    text-align: center;
+}
+
+.email__content {
+height: 2.5vw;
+position: relative;
+width: 32.03vw
+}
+
+.email__content-text {
+background: #fff;
+border: .04vw solid #e0e0e0;
+border-radius: .63vw;
+box-sizing: border-box;
+color: #191919;
+font-size: .94vw;
+height: 100%;
+line-height: 2.5vw;
+outline: 0;
+padding: .08vw .94vw;
+width: 100%
+}
+
+.email .agree-box {
+cursor: pointer;
+margin-top: .78vw;
+text-align: center;
+width: 32.03vw
+}
+
+.email .agree-box .radio {
+background-size: cover;
+display: inline-block;
+height: .94vw;
+margin-right: .31vw;
+vertical-align: middle;
+width: .94vw
+}
+
+.email .agree-box .agree-text {
+color: #898989;
+font-size: .63vw;
+font-weight: 400;
+line-height: .74vw
+}
+
+.email .agree-box .agree-link {
+color: #ff6900
+}
+
+.email .common-toast {
+background: #000;
+border-radius: .63vw;
+color: #fff;
+font-size: .94vw;
+font-weight: 400;
+height: 7.85vw;
+left: 50%;
+line-height: 1.13vw;
+opacity: .7;
+padding: .7vw 1.88vw;
+position: absolute;
+text-align: center;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 29.69vw
+}
+
+.video_icon {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0.3125rem;
     position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0
-    }
-    
-    .email__content .btn-disable {
-    background: #d0d0d0
-    }
-
-    
-    .email .agree-box {
-    cursor: pointer;
-    margin-top: .78vw;
-    text-align: center;
-    width: 32.03vw
-    }
-    
-    .email .agree-box .radio {
-    background-size: cover;
-    display: inline-block;
-    height: .94vw;
-    margin-right: .31vw;
-    vertical-align: middle;
-    width: .94vw
-    }
-    
-    .email .agree-box .radio-empty {
-    background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-empty.png)
-    }
-    
-    .email .agree-box .radio-selected {
-    background-image: url(https://i02.appmifile.com/events/l12-preheat-live/radio-selected.png)
-    }
-    
-    .email .agree-box .agree-text {
-    color: #898989;
-    font-size: .63vw;
-    font-weight: 400;
-    line-height: .74vw
-    }
-    
-    .email .agree-box .agree-link {
-    color: #ff6900
-    }
-    
-    .email .common-toast {
-    background: #000;
-    border-radius: .63vw;
-    color: #fff;
-    font-size: .94vw;
-    font-weight: 400;
-    height: 7.85vw;
-    left: 50%;
-    line-height: 1.13vw;
-    opacity: .7;
-    padding: .7vw 1.88vw;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 29.69vw
-    }
+    top: calc(50% - 0.96094rem);
+    z-index: 1;
+}
 
 
 
 
 
-
-    
 @media screen and (max-width:999px) {
 
 .desktop-note{display: none;}
@@ -484,7 +471,9 @@ margin: 1rem;
 text-align: center;
 }
 
-#Btn {
+
+
+#Btn-note {
 display: none;
 position: fixed;
 bottom: 50px;
@@ -499,9 +488,13 @@ padding: 25px;
 border-radius: 10px;
 }
 
-#Btn:hover {
+#Btn-note:hover {
 background-color: #ff6900;
 }
+
+
+
+
 
 #Btn-phone{
 border: none;
@@ -518,8 +511,5 @@ right: 60px;
 #Btn-phone:hover{
 background-color: #ff6900;
 }
-
-
-
 
 }

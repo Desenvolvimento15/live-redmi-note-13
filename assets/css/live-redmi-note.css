@@ -34,11 +34,11 @@ width: 50px;
 }
 
 .share .share-top {
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
+background-repeat: no-repeat;
+background-size: contain;
+cursor: pointer;
+height: 50px;
+width: 50px;
 }
 
 .share .common-icon-share-facebook-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/facebook.png);}
@@ -185,18 +185,24 @@ line-height: 1.1;
 text-align: center;
 }
 
-.title-preto-phone{
+.title-preto-phone {
 font-size: 1.88vw;
 font-weight: 700;
 line-height: 1.1;
 text-align: center;
-width: 23.44vw;   
+width: 34rem;
 }
 
 .p-preto {
 font-size: .94vw;
 margin-top: 0.94vw;
 text-align: center;
+}
+
+.p-preto-left {
+font-size: 1.4vw;
+margin-top: 0.94vw;
+text-align: left;
 }
 
 .p-preto-phone{
@@ -208,12 +214,14 @@ width: 23.44vw;
 
 .text-overlay {
 position: absolute;
-top: 50%;
-left: 50%;
+top: 83%;
+left: 64%;
 transform: translate(-50%, -50%);
 text-align: center;
 color: #000;
 }
+
+
 
 /*****************************************************************/
 
@@ -229,10 +237,9 @@ border-radius: 10px;
 bottom: 50px;
 right: 60px;
 margin: 0 auto;
-width: 24rem;
-height: 6rem;
-margin-bottom: 5rem;
-font-size: 2rem;
+width: 76rem;
+height: auto;
+font-size: 5rem;
 }
 
 #Btn-phone:hover{
@@ -271,7 +278,7 @@ display: flex;
 flex-direction: column;
 height: auto;
 margin-top: 1.6vw;
-padding-bottom: 3.2vw
+
 }
 
 .email__title {
@@ -501,24 +508,7 @@ margin: 1rem;
 text-align: center;
 }
 
-#Btn-note {
-display: none;
-position: fixed;
-bottom: 50px;
-right: 60px;
-z-index: 9999;
-border: none;
-outline: none;
-background-color: #191919;
-color: white;
-cursor: pointer;
-padding: 25px;
-border-radius: 10px;
-}
 
-#Btn-note:hover {
-background-color: #ff6900;
-}
 
 #Btn-phone{
 border: none;

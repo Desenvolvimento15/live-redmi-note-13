@@ -75,7 +75,6 @@ width: 35rem;
 margin-bottom: 1.5rem;
 }
 
-
 .top-header {
 align-items: center;
 color: #191919;
@@ -148,7 +147,6 @@ margin-top: -12rem;
 width: 100%;
 }
 
-
 .section02{
 margin: 5rem;
 text-align: center;
@@ -192,10 +190,17 @@ margin-top: 0.94vw;
 text-align: center;
 }
 
-.p-preto-left {
-font-size: 0.9vw;
+.p-preto-video {
+    font-size: 1.3vw;
+    margin-top: 0.94vw;
+    text-align: left;
+}
+
+.p-preto-aviso {
+font-size: 1rem;
 margin-top: 0.94vw;
-text-align: left;
+text-align: center;
+margin: 1rem;
 }
 
 .p-preto-phone{
@@ -213,8 +218,6 @@ transform: translate(-50%, -50%);
 text-align: center;
 color: #000;
 }
-
-
 
 /*****************************************************************/
 

@@ -55,3 +55,14 @@ var interval = setInterval(updateCountdown, 1000);
 // Chama a função para garantir que o contador é exibido corretamente ao carregar a página
 updateCountdown();
 
+
+$("a[href^='#']").click(function(e) {
+  e.preventDefault();
+  
+  var targetSection = $($(this).attr("href"));
+  var position = targetSection.offset().top - ($(window).height() - targetSection.outerHeight()) / 2;
+
+  $("body, html").animate({
+    scrollTop: position
+  }, 800 /* velocidade da animação em milissegundos */ );
+});

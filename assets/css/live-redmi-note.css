@@ -164,14 +164,12 @@ padding-bottom: 0.3rem;
 
 /********************************************************************/
 
-
 .title-promo{
 font-size: 1.88vw;
 font-weight: 700;
 line-height: 1.1;
 text-align: center;
 }
-
 
 .title-preto{
 font-size: 1.88vw;
@@ -195,7 +193,7 @@ text-align: center;
 }
 
 .p-preto-left {
-font-size: 1.4vw;
+font-size: 0.9vw;
 margin-top: 0.94vw;
 text-align: left;
 }

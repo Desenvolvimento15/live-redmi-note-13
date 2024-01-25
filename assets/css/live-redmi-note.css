@@ -98,11 +98,12 @@ height: 2.34vw;
 width: 2.34vw;
 }
 
-.grid-galeria{
+.grid-galeria {
 display: grid;
 max-width: 100%;
 grid-template-columns: 1fr 1fr 1fr;
 background-position: center;
+gap: 2rem;
 }
 
 .galeria{
@@ -191,9 +192,9 @@ text-align: center;
 }
 
 .p-preto-video {
-    font-size: 1.3vw;
-    margin-top: 0.94vw;
-    text-align: left;
+font-size: 1.3vw;
+margin-top: 0.94vw;
+text-align: left;
 }
 
 .p-preto-aviso {

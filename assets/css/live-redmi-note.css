@@ -103,10 +103,10 @@ width: 2.34vw;
 }
 
 .grid-galeria {
-  display: grid;
-  gap: 2rem;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+display: grid;
+gap: 2rem;
+width: 100%;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .galeria{
@@ -446,19 +446,19 @@ align-items: center;
 }
 
 .galeria {
-  padding: 1.5rem;
-  background: #f7f7f7;
+padding: 1.5rem;
+background: #f7f7f7;
 }
 
 .header-1 {
-  background-image: url(../media/capa-mobile.webp);
-  background-size: cover;
-  box-sizing: border-box;
-  flex-direction: column;
-  height: 170.5vw;
-  padding: 0 8.98vw;
-  position: relative;
-  width: 100%;
+background-image: url(../media/capa-mobile.webp);
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 170.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
 }
 
 .header-1, .header-1-calendar {
@@ -491,25 +491,25 @@ margin-bottom: 1rem;
 }
 
 .title-preto-phone {
-  font-size: 1.9rem;
-  font-weight: 700;
-  line-height: 1.1;
-  text-align: center;
-  width: 20rem;
+font-size: 1.9rem;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 20rem;
 }
 
 .title-promo {
-  font-size: 1.88rem;
-  font-weight: 700;
-  line-height: 1.1;
-  text-align: center;
+font-size: 1.88rem;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
 }
 
 .p-preto-aviso {
-  font-size: 0.6rem;
-  margin-top: 0.94vw;
-  text-align: center;
-  margin: 1rem;
+font-size: 0.6rem;
+margin-top: 0.94vw;
+text-align: center;
+margin: 1rem;
 }
 
 .p-preto{
@@ -536,13 +536,13 @@ margin-bottom: 1.6vw;
 
 }
 .email__title {
-  color: #191919;
-  font-size: 1.64rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin: 1.13vw auto 1.41vw;
-  max-width: 100%;
-  text-align: center;
+color: #191919;
+font-size: 1.64rem;
+font-weight: 700;
+line-height: 1.2;
+margin: 1.13vw auto 1.41vw;
+max-width: 100%;
+text-align: center;
 }
 
 .email__content {
@@ -552,34 +552,34 @@ width: 100%
 }
 
 .email__content-text {
-  background: #ffffff;
-  border: 0.04vw solid #e0e0e0;
-  border-radius: 0.63vw;
-  box-sizing: border-box;
-  color: #191919;
-  font-size: 1rem;
-  height: 100%;
-  line-height: 2.5vw;
-  outline: 0;
-  padding: 0.08rem 0.94rem;
-  width: 100%;
+background: #ffffff;
+border: 0.04vw solid #e0e0e0;
+border-radius: 0.63vw;
+box-sizing: border-box;
+color: #191919;
+font-size: 1rem;
+height: 100%;
+line-height: 2.5vw;
+outline: 0;
+padding: 0.08rem 0.94rem;
+width: 100%;
 }
 
 .email .agree-box {
-  cursor: pointer;
-  margin-top: 0.78vw;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 2rem;
+cursor: pointer;
+margin-top: 0.78vw;
+text-align: center;
+width: 100%;
+margin-bottom: 2rem;
 }
 
 .email .agree-box .radio {
-  background-size: cover;
-  display: inline-block;
-  height: 1rem;
-  margin-right: 0.31vw;
-  vertical-align: middle;
-  width: 1rem;
+background-size: cover;
+display: inline-block;
+height: 1rem;
+margin-right: 0.31vw;
+vertical-align: middle;
+width: 1rem;
 }
 
 .email .agree-box .agree-text {
@@ -620,14 +620,14 @@ text-align: center;
 }
 
 .section02 {
-  margin: 1rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+margin: 1rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
 }
 
 .share-prd {
@@ -665,14 +665,14 @@ border-top-right-radius: 15px;
 }
 
 #countdown {
-  font-size: 1.8rem;
-  color: #000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding: 0rem;
- 
-  flex-direction: row;
+font-size: 1.8rem;
+color: #000;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+padding: 0rem;
+
+flex-direction: row;
 }
 
 

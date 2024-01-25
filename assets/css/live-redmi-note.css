@@ -75,11 +75,6 @@ width: 35rem;
 margin-bottom: 1.5rem;
 }
 
-.title-preto{
-font-weight: 900;
-line-height: 1.1;
-text-align: center;
-}
 
 .top-header {
 align-items: center;
@@ -175,8 +170,8 @@ font-size: 1.88vw;
 font-weight: 700;
 line-height: 1.1;
 text-align: center;
-
 }
+
 
 .title-preto{
 font-size: 1.88vw;
@@ -252,7 +247,7 @@ color: #000;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-padding-top: 8rem;
+padding: 2rem;
 }
 
 .time-container {

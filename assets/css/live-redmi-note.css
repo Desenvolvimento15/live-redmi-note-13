@@ -205,9 +205,10 @@ margin: 1rem;
 
 .p-preto-phone{
 font-size: .94vw;
-margin-top: 0.94vw;
+margin: 0.94vw;
 text-align: center;
 width: 23.44vw;
+line-height: 1.5;
 }
 
 .text-overlay {
@@ -330,9 +331,7 @@ font-weight: 400;
 line-height: .74vw
 }
 
-.email .agree-box .agree-link {
-color: #ff6900
-}
+.email .agree-box .agree-link {color: #ff6900}
 
 .email .common-toast {
 background: #000;
@@ -357,7 +356,7 @@ align-items: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
-left: 0.3125rem;
+left: 5rem;
 position: absolute;
 top: calc(50% - 0.96094rem);
 z-index: 1;

@@ -42,11 +42,12 @@ width: 50px;
 }
 
 .share .common-icon-share-facebook-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/facebook.png);}
+.share .common-icon-share-instagram-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/instagram.png);}
 .share .common-icon-share-twitter-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/twitter.png);}
 .share-grey {background-image: url(https://i02.appmifile.com/activity-mi-web/fly-birds/xiaomi-launch-september-2023/pc/up.png);}
 
 
-.share .common-icon-share-facebook, .common-icon-share-tw, .share .common-icon-share-twitter {
+.share .common-icon-share-facebook, .common-icon-share-tw, .share .common-icon-share-twitter, .share .common-icon-share-instagram-grey {
 background-repeat: no-repeat;
 background-size: contain;
 cursor: pointer;
